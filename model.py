@@ -17,7 +17,7 @@ import numpy as np
 begin_date = dt.date(2020,2,13)
 end_date = dt.date(2020,2,19)
 
-limit = 1000000
+limit = 20000
 lang = ['english', 'spanish']
 
 tweets = query_tweets('#apruebo OR #rechazo', begindate = begin_date, enddate = end_date, limit = limit, lang = lang)
